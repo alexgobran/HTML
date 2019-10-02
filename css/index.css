@@ -1,0 +1,25 @@
+
+/* tagname style */
+ol {
+color:blue;
+}
+/* Id Style */
+#green{
+color:green;
+}
+/* Class style */
+.thediv{
+color:red; 
+}
+.orange{
+    color:orange;
+}
+.twicethesize{
+    font-size:2.5em;
+}
+.border{
+    Border:2px solid black;
+}
+.Font{
+    Font:12pt/14.4pt Arial,Sanserif;
+}
