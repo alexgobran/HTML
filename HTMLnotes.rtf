@@ -1,13 +1,16 @@
-{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}{\f1\fnil\fcharset2 Symbol;}}
-{\colortbl ;\red255\green255\blue0;\red0\green77\blue187;\red0\green0\blue0;}
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}{\f1\fnil\fcharset0 Verdana;}{\f2\fnil\fcharset0 Arial;}{\f3\fnil\fcharset0 Times New Roman;}{\f4\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red255\green255\blue0;\red0\green77\blue187;\red0\green0\blue0;\red255\green192\blue0;}
 {\*\generator Riched20 10.0.17134}\viewkind4\uc1 
-\pard\sa200\sl276\slmult1\qc\ul\b\f0\fs28\lang9 HTML\ulnone\b0\fs22\par
+\pard\sa200\sl276\slmult1\qc\ul\b\f0\fs28\lang9 HTML\par
+\par
 
-\pard\sa200\sl276\slmult1\b\i\fs24 HTML 5 \b0\i0 tag is not supported on older browsers!\par
+\pard\sa200\sl276\slmult1\ulnone\b0\fs22 static, not intedned to be interactive \par
+made to display data\par
+\b\i\fs24 HTML 5 \b0\i0 tag is not supported on older browsers!\par
 
-\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\fs22 case insensitive\par
-{\pntext\f1\'B7\tab}freeform\par
-{\pntext\f1\'B7\tab}consist of \highlight1\b TAGS \highlight0\b0 and \highlight1\b CONTENTS\highlight0\b0\par
+\pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlblt\pnf4\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\fs22 case insensitive\par
+{\pntext\f4\'B7\tab}freeform\par
+{\pntext\f4\'B7\tab}consist of \highlight1\b TAGS \highlight0\b0 and \highlight1\b CONTENTS\highlight0\b0\par
 
 \pard\sa200\sl276\slmult1\par
 \b Browsers dont blow! they just dont give you the output you expect\par
@@ -29,7 +32,7 @@ http- \highlight1\b0 uses port 80\highlight0    not encrypted ( exposed to other
 <input>- best UTILITY  - no end tag( no content)\par
 <input value = "__">\par
 
-\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\tab has Value attribute\par
+\pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlblt\pnf4\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\tab has Value attribute\par
 
 \pard\sa200\sl276\slmult1 <button>\par
 \par
@@ -9124,18 +9127,17 @@ ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00000300000000
 
 \pard\sa200\sl276\slmult1\cf0\b IF \b0 applied to the same HTML than the last style will win\par
 \par
+\par
+Can also have multiple style sheets linked! \par
+\par
 \ul\b Selector- \{\} (\ulnone\b0 which html statement to apply style too\ul\b )\par
 \ulnone\b0  \par
-
-\pard\sa200\sl276\slmult1\b 1)Tagname-\b0 when you select by <tag Name> - ALL same tags will be styled the same way\b\par
-
-\pard\sa200\sl276\slmult1\par
-
-\pard\sa200\sl276\slmult1 2)Id-\b0 when you select by <ID> - ALL same tags will be styled the same way\b\par
-
-\pard\sa200\sl276\slmult1\par
-
-\pard\sa200\sl276\slmult1 3)Class-\b0 when you select by <Class> - ALL same tags will be styled the same way\par
+\b 1)Tagname-\b0 when you select by <tag Name> - ALL same tags will be styled the same way\b\par
+\par
+2)Id-\b0 when you select by <ID> -can only use on id style per tag\par
+\b\par
+(#green)\par
+3)Class-\b0 can be used to style any tag and a tag can have  multiple classes, only applies to the tag you directly apply it to. ex( .thediv)\par
 \par
 \par
 \ul\b\fs28 Sizing\par
@@ -9144,8 +9146,32 @@ ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00000300000000
 \b Padding\par
 Border\par
 Margin\par
+\fs24\par
+\fs22\par
+\ul\fs24 Color\par
+hexadecimal\par
+\ulnone\b0 base of 16\par
+\ul\b\fs28 Fonts\par
+\ulnone\b0\f1\fs24 Verdana\f0\par
+Arial (sans-serif) sans means "without" in french so (without-serif)\f2\fs32  \fs40 A\f0\fs24\par
+Times New Roman (serif)- serif has flares on the ends of characters \f3\fs48 A\f0\fs24\par
+Courier New (monospace) \par
+\ul\b\fs28 CSS\ulnone\fs22\par
+\ul\fs24 Size of Font\par
+font-family\ulnone\b0 :"Arial" (can put multiple font-fallback options ex[font-family:"Arial, Courier,Times New Roman"])\par
+\ul\b font-size\ulnone\b0 : 12pt\ul\b\par
+\ulnone\b0 size designated in pt + number\par
+higher the number, higher the size\par
+\cf4\b Default font size\cf0\b0 - absolute size \par
+
+\pard{\pntext\f4\'B7\tab}{\*\pn\pnlvlblt\pnf4\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 Scale font relative to default font size -- 12pt 2.0em  \ul\b\par
+{\pntext\f4\'B7\tab}\ulnone\b0 set default font size to the body to control how it will look\ul\b\par
 
 \pard\sa200\sl276\slmult1\par
+Font-weight\ulnone\b0 : "\b bold\b0 "\ul\b\par
+\ulnone\fs22\par
+font "12pt/14.4pt Verdana, Arial, Times New Roman"\par
+font "(font size/line height)\par
 \par
 \ul\fs28 Resources\par
 \ulnone\b0\fs24 W3 schools\fs22\par
